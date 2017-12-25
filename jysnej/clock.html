@@ -81,12 +81,11 @@ function drawTime(ctx, radius){
     var propo2 = value2 / 43700000
 
     var liestu_ = propo
-    drawHand(ctx, liestu_ * tau , radius*0.5, radius*0.07, "#000000");
+    
     document.getElementById("liestu").value=Math.floor(propo2*12);
 
 
     var rukest_ = (propo * 12) % 1
-    drawHand(ctx, rukest_ * tau, radius*0.8, radius*0.07, lipalaone);
 	document.getElementById("rukest").value=Math.floor(rukest_*36);
 
     var stususn_ = (propo * 12 * 36) % 1
@@ -94,16 +93,20 @@ function drawTime(ctx, radius){
     document.getElementById("stususn").value=Math.floor(stususn_*125);
 
     var A_hand = (propo * 5) % 1
-    drawHand(ctx, A_hand * tau, radius*0.75, radius*0.07, lanerme);
     document.getElementById("zuo").value = Math.floor(propo2*50);
 
     var B_hand = (propo * 50) % 1
-    drawHand(ctx, B_hand * tau, radius*0.85, radius*0.04, lanerme);
     document.getElementById("hua").value = Math.floor(B_hand*10);
 
    	var stususn2 = (propo * 50 * 10) % 1
    	document.getElementById("stususn2").value=Math.floor(stususn2*108);
 
+
+    drawHand(ctx, B_hand * tau, radius*0.85, radius*0.04, lanerme);
+    drawHand(ctx, rukest_ * tau, radius*0.8, radius*0.05, lipalaone);
+    drawHand(ctx, A_hand * tau, radius*0.75, radius*0.06, lanerme);
+	drawHand(ctx, liestu_ * tau , radius*0.5, radius*0.07, "#000000");
+	
 }
 
 function drawHand(ctx, pos, length, width, color) {
