@@ -73,14 +73,16 @@ function drawTime(ctx, radius){
 
     var offset = document.getElementById("offset").value - 0;
     var value = (Date.now()+offset*809) % (87400/2 * 1000); 
+    var value2 = (Date.now()+offset*809) % (87400 * 1000); 
 
     console.log(value);
 
     var propo = value / 43700000
+    var propo2 = value2 / 43700000
 
     var liestu_ = propo
     drawHand(ctx, liestu_ * tau , radius*0.5, radius*0.07, "#000000");
-    document.getElementById("liestu").value=Math.floor(liestu_*12);
+    document.getElementById("liestu").value=Math.floor(propo2*12);
 
 
     var rukest_ = (propo * 12) % 1
@@ -93,7 +95,7 @@ function drawTime(ctx, radius){
 
     var A_hand = (propo * 5) % 1
     drawHand(ctx, A_hand * tau, radius*0.75, radius*0.07, lanerme);
-    document.getElementById("zuo").value = Math.floor(propo*50);
+    document.getElementById("zuo").value = Math.floor(propo2*50);
 
     var B_hand = (propo * 50) % 1
     drawHand(ctx, B_hand * tau, radius*0.85, radius*0.04, lanerme);
