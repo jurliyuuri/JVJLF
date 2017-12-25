@@ -1,0 +1,142 @@
+<!-- https://www.w3schools.com/graphics/canvas_clock.asp -->
+<!DOCTYPE html>
+<html>
+<style>
+@font-face {
+    font-family: "Cirlipa";
+    src: url("./cirlxarli_liparxe_1.woff");  format('woff');
+}
+</style>
+<body>
+<a href="index.html">トップに戻る</a>
+<h2>リパラオネ・ラネーメ統合時計（理羅時計）</h2>
+<p>1理日=87400秒と近似して処理する。</p>
+<table><tr><td>
+<canvas id="canvas" width="400" height="400" style="background-color:#333"></canvas>
+</td><td>
+<div style="font-size: 120%; border: 1px solid blue; padding: 5px; background-color: #eeeeff; width: 300px;">
+	<input type="number" id="liestu" />'d liestu<br>
+	<input type="number" id="rukest" />'d rukest<br>
+	<input type="number" id="stususn" />'d stususn<br>
+</div>
+
+<div style="font-size: 120%; border: 1px solid green; padding: 5px; background-color: #eeffee; width: 300px;">
+	<input type="number" id="zuo" />片時<br>
+	<input type="number" id="hua" />挽時<br>
+	<input type="number" id="stususn2" />'d stususn<br>
+</div></td></tr></table>
+
+<script>
+var lipalaone = "#0000ff";
+var lanerme = "#005242";
+var canvas = document.getElementById("canvas");
+var ctx = canvas.getContext("2d");
+var radius = canvas.height / 2;
+ctx.translate(radius, radius);
+radius = radius * 0.90
+setInterval(drawClock, 101);
+
+function drawClock() {
+    drawFace(ctx, radius);
+	drawNumbers(ctx, radius,12, 0.10,0.85,["1","2","3","4","5","6","7","8","9","10","11","0"],lipalaone,"Cirlipa");
+	drawNumbers(ctx, radius,36, 0.10,0.85,"・・　・・　・・　・・　・・　・・　・・　・・　・・　・・　・・　・・　",lipalaone,"arial");
+	drawNumbers(ctx, radius,10, 0.10,0.70,"一二三四五六七八九　",lanerme,"arial");
+	drawNumbers(ctx, radius,2, 0.10,0.60,"　無",lanerme,"arial");
+	drawNumbers(ctx, radius,5, 0.10,0.50,["十","二十","三十","四十","　"],lanerme,"arial");
+	drawTime(ctx, radius);
+}
+
+function drawNumbers(ctx, radius, u, a, b,arr,color,font) {
+    var ang;
+    var num;
+    ctx.font = radius*a + "px "+font;
+    ctx.fillStyle = color;
+    ctx.textBaseline="middle";
+    ctx.textAlign="center";
+    for(num= 1; num <= u; num++){
+        ang = num * Math.PI * 2 / u;
+        ctx.rotate(ang);
+        ctx.translate(0, -radius*b);
+        ctx.rotate(-ang);
+        ctx.fillText(arr[num-1], 0, 0);
+        ctx.rotate(ang);
+        ctx.translate(0, radius*b);
+        ctx.rotate(-ang);
+    }
+    ctx.fillStyle = "#000000";
+}
+
+function drawTime(ctx, radius){
+	var tau = 2*Math.PI;
+    var now = new Date();
+
+    var value = (Date.now()+9703139) % (87400/2 * 1000); 
+
+    console.log(value);
+
+    var propo = value / 43700000
+
+    var liestu_ = propo
+    drawHand(ctx, liestu_ * tau , radius*0.5, radius*0.07, "#000000");
+    document.getElementById("liestu").value=Math.floor(liestu_*12);
+
+
+    var rukest_ = (propo * 12) % 1
+    drawHand(ctx, rukest_ * tau, radius*0.8, radius*0.07, lipalaone);
+	document.getElementById("rukest").value=Math.floor(rukest_*36);
+
+    var stususn_ = (propo * 12 * 36) % 1
+   // drawHand(ctx, stususn_ * tau, radius*0.9, radius*0.02, lipalaone);
+    document.getElementById("stususn").value=Math.floor(stususn_*125);
+
+    var A_hand = (propo * 5) % 1
+    drawHand(ctx, A_hand * tau, radius*0.75, radius*0.07, lanerme);
+    document.getElementById("zuo").value = Math.floor(propo*50);
+
+    var B_hand = (propo * 50) % 1
+    drawHand(ctx, B_hand * tau, radius*0.85, radius*0.04, lanerme);
+    document.getElementById("hua").value = Math.floor(B_hand*10);
+
+   	var stususn2 = (propo * 50 * 10) % 1
+   	document.getElementById("stususn2").value=Math.floor(stususn2*108);
+
+}
+
+function drawHand(ctx, pos, length, width, color) {
+    ctx.beginPath();
+    ctx.lineWidth = width;
+ 	ctx.strokeStyle = color;
+    ctx.lineCap = "round";
+    ctx.moveTo(0,0);
+    ctx.rotate(pos);
+    ctx.lineTo(0, -length);
+    ctx.stroke();
+    ctx.rotate(-pos);
+    ctx.strokeStyle = "#000000";
+}
+
+function drawFace(ctx, radius) {
+    var grad;
+
+    ctx.beginPath();
+    ctx.arc(0, 0, radius, 0, 2*Math.PI);
+    ctx.fillStyle = 'white';
+    ctx.fill();
+
+    grad = ctx.createRadialGradient(0,0,radius*0.95, 0,0,radius*1.05);
+    grad.addColorStop(0, '#333');
+    grad.addColorStop(0.5, 'white');
+    grad.addColorStop(1, '#333');
+    ctx.strokeStyle = grad;
+    ctx.lineWidth = radius*0.1;
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.arc(0, 0, radius*0.1, 0, 2*Math.PI);
+    ctx.fillStyle = '#333';
+    ctx.fill();
+}
+</script>
+ソースは<a href="https://www.w3schools.com/graphics/canvas_clock.asp">ここ</a>を大いに参考にした。
+</body>
+</html>
