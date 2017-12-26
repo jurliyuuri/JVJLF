@@ -16,15 +16,15 @@
 </td><td>
 <input type="number" id="offset" value="11993" />←の値を変えると時刻が変わる
 <div style="font-size: 120%; border: 1px solid blue; padding: 5px; background-color: #eeeeff; width: 300px;">
-	<input type="number" id="liestu" readonly />'d liestu<br>
-	<input type="number" id="rukest" readonly />'d rukest<br>
-	<input type="number" id="stususn" readonly />'d stususn<br>
+	<span id="liestu"></span>'d liestu<br>
+	<span id="rukest"></span>'d rukest<br>
+	<span id="stususn"></span>'d stususn<br>
 </div>
 
 <div style="font-size: 120%; border: 1px solid green; padding: 5px; background-color: #eeffee; width: 300px;">
-	<input type="number" id="zuo" readonly />片時<br>
-	<input type="number" id="hua" readonly />挽時<br>
-	<input type="number" id="stususn2" readonly />'d stususn<br>
+	<span id="zuo"></span>片時<br>
+	<span id="hua"></span>挽時<br>
+	<span id="stususn2"></span>'d stususn<br>
 </div></td></tr></table>
 
 <script>
@@ -82,24 +82,24 @@ function drawTime(ctx, radius){
 
     var liestu_ = propo
     
-    document.getElementById("liestu").value=Math.floor(propo2*12);
+    document.getElementById("liestu").innerText=Math.floor(propo2*12);
 
 
     var rukest_ = (propo * 12) % 1
-	document.getElementById("rukest").value=Math.floor(rukest_*36);
+	document.getElementById("rukest").innerText=Math.floor(rukest_*36);
 
     var stususn_ = (propo * 12 * 36) % 1
    // drawHand(ctx, stususn_ * tau, radius*0.9, radius*0.02, lipalaone);
-    document.getElementById("stususn").value=Math.floor(stususn_*125);
+    document.getElementById("stususn").innerText=Math.floor(stususn_*125);
 
     var A_hand = (propo * 5) % 1
-    document.getElementById("zuo").value = Math.floor(propo2*50);
+    document.getElementById("zuo").innerText = Math.floor(propo2*50);
 
     var B_hand = (propo * 50) % 1
-    document.getElementById("hua").value = Math.floor(B_hand*10);
+    document.getElementById("hua").innerText = Math.floor(B_hand*10);
 
    	var stususn2 = (propo * 50 * 10) % 1
-   	document.getElementById("stususn2").value=Math.floor(stususn2*108);
+   	document.getElementById("stususn2").innerText=Math.floor(stususn2*108);
 
 
     drawHand(ctx, B_hand * tau, radius*0.85, radius*0.04, lanerme);
