@@ -1,0 +1,752 @@
+{
+  "words" : [ {
+    "entry" : {
+      "id" : 49,
+      "form" : "-inie-"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【語中辞】(数詞A-inie-数詞B)AのB乗"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 63,
+      "form" : "-kung"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【語尾辞】数詞を二倍する。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 76,
+      "form" : "-nang"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【語尾辞】数詞を五倍する。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 116,
+      "form" : "-tva"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【語尾辞】(口語)序数接辞\n【語尾辞】倍数詞　数詞-tvaで数詞倍ということになる。\n\n[2014:tws:LIY:2]\n[語法]\n【名詞】latva 倍数\nla 100tvam　何百万"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 192,
+      "form" : "adist"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【他動詞】(-'sは-'iに)比例する\n\n[2016:at tydiest:LIY:共に行く]"
+    }, {
+      "title" : "用例",
+      "text" : "Kicukoska'd systusnej adist exiuceen shane.　股間の角度と同人誌の厚さは比例する。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 201,
+      "form" : "adzerctila"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】確率　合格率　命中率\n\n[2014:rodes tel:LIY:::]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 210,
+      "form" : "afikelixe"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【他動詞】((-'sは-'iを))測る　図る　計る　量る　測定する\n\n[2014:la pikier'i xel:LIY:長さを測る]\n[語法]\n【他動詞】poltafikelixe　測量する\n【名詞】poltafikelixeo 測量　幾何\n【名詞】poltafikelixeolyr 幾何学"
+    }, {
+      "title" : "用例",
+      "text" : "Edixu jeska'd eifli'eya es afikelixeo murtmir'it retoenj chakuen parcaxeraler's fentexoler.　イェスカの趣味といえば同僚党員が反動を何人殺したか数えることだった。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 404,
+      "form" : "anaxkaidzern"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】変数　\n\n[2014:Cene l'achkarj dieniep:LIL:変われる数]"
+    }, {
+      "title" : "用例",
+      "text" : "[文化]\n「未知の」を表すQunenerfeの頭文字からqから数えて使う。一般化のnやxに当たるポピュラーな文字はqとなる。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 464,
+      "form" : "anleiju"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】配列\n\n[2015:ANaxkaidzernen leiju:LIY;:変数列]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 1149,
+      "form" : "denep"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】桁　ディジット　位　くらい\n\n[2013:dieniep:LIY :数字::]\n[語法]\nA'd denep Aの位、桁"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 1232,
+      "form" : "dieniep"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】数字\n【名詞】数　数値"
+    }, {
+      "title" : "用例",
+      "text" : "[文化]\n理語辞書中の数詞は見出し語欄に数字を入れても検索可能"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 1849,
+      "form" : "fanxensor"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】乱数　ランダムに出力される数\n【名詞】ランダムな出力　無作為の出力\n\n[2015:fanxen soor:LIY:適当な数値]\n[類義語:netixten]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 1897,
+      "form" : "fartze"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】(数学の)辺\n\n[2014:fka'd chai:LIY:周りの線]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 1916,
+      "form" : "fasvidiene"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】虚数\n\n[2015:lexif asvi dieniep:LIY:結果の出ない数]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 2369,
+      "form" : "furkiuderl"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】イコライザー\n\n[2015:furnkie diurlesium-u’d snosti -erl:周波数特性を変えるもの:LIY:tarf.klanの造語]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 2447,
+      "form" : "gidesuleafy"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】ローパスフィルター LPF\n\n[2014:girdiurlesiumunsar'i l'axe fyrsa:LIY:一定より低い周波数を通すフィルター]\n[語法]\nny gidesuleafy　ハイパスフィルター"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 2449,
+      "form" : "gidlscearxefyrs"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】バンドパスフィルタ\n\n[2014:girdiurlesium'i l'axe fyrsa:LIY:特定の周波数通す]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 2601,
+      "form" : "icvetalv"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】対数　\n\n[2016:icve talvi'a:LIY:べき乗を得る]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 2658,
+      "form" : "infescestemeles"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】三角関数\n\n[2014:infescest mels tasniau:LIY:三角に関する関数]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 2667,
+      "form" : "inyrl"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】場　界　フィールド\n\n[2015:iesnyxal:LIY:広がるとこ]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 2762,
+      "form" : "ixxe"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】サイン　正弦\n\n[2014:jische:SRT:正弦]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 2883,
+      "form" : "jexerrt"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】証拠　裏づけ　根拠\n【名詞】(数学の)証明\n【名詞】(手紙の)封印　封蝋　シーリングワックス\n【名詞】署名　サイン\n【名詞】電子署名\n\n[2015:èhaichiert:VEF:明らかな]\n[語法]\n(S-'d) jexerrt petul niv.　手紙が届かない　連絡がとれない　音信不通　音沙汰なし　(Sが)消息を絶つ　消息不明　行方をくらます　行方不明　所在不明　行方知れず"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 2964,
+      "form" : "juleslotizas"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【形容詞】平均の　平均値の\n\n[2014:julesn lot irzast:LIY:正しく移す]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 2986,
+      "form" : "junie"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】分数\n\n[2016:jysnejesnej:LIY:単位の形]\n[語法]\nlarxowen/xuten/atatilsoren junie　真/仮/帯分数\nasmietx junie　約分する\nceesris junie　通分する"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3083,
+      "form" : "kakites"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【他動詞】(-'sは-'iをioで)(整数除算、余りが出る)割る　÷　数学の÷　除算する　除する\n\n[2014:KAKITA:SUK:分割する]\n[類義語:ny stusni(<stusni)]\n【名詞】kakiteosso 比率　比\nnaste kakites 割り切る\n【名詞】kakitesesnoj 割合　比率\n【他動詞】kakiterses　[電算](-'sは-'iを-'cで)除算する"
+    }, {
+      "title" : "用例",
+      "text" : "Cene niv 10 ler 100 io 6 io naste kakiteserl es la harmie? 10〜100までの6で割り切れない数の和は？"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3133,
+      "form" : "karso"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】引数　アーギュメント\n\n[2016:karxen soor:LIY:望む数::FFT]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3179,
+      "form" : "kenelif"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】無限大　∞　インフィニティ\n\n[2016:jurkenel niv:LIY:限界でない]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3196,
+      "form" : "kestiek"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【動詞】((-'sは-'iを))かためる (固める)\n\n[語法]\nyst kestiek 因数分解"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3259,
+      "form" : "kinellavor"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】座標\n\n[2017:kinerl laval:LIY:場所を示すもの]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3309,
+      "form" : "klurp"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】進数\n\n[語法]\nKlurpen A A進数"
+    }, {
+      "title" : "用例",
+      "text" : "Ferlesexiayl firlex klurpen 2. CPUは二進数を解す。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3613,
+      "form" : "la rafte-fua-infescest"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】アポロニウスの円"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3659,
+      "form" : "lacherf"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】ベクトル\n\n[2015:lal ad xerfo:LIY:方向と大きさ]\n[語法]\nlacherfen inyrl　ベクトル場"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3684,
+      "form" : "laisnej"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】流束　フラックス\n\n[2015:lacherfen inyrlisnej:LIY:ベクトル場強]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3695,
+      "form" : "lakormeru"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】(数学の)平方根　ルート\n\n[2014:rakormeeu:YGK:平方根]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 3794,
+      "form" : "lasten"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【形容詞】デジタルな　計数な\n\n[2015:lasta -en:LIY:区分の]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 4027,
+      "form" : "lifemperda"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】定数\n\n[2015:lexif xem pakda:LIY:変わらない数]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 4158,
+      "form" : "loler"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【形容詞】多い　量的に、数値的に大きい\n【形容詞】(時間が)長い\n【形容詞】(周波数が)高い\n\n[対義語:vers]"
+    }, {
+      "title" : "用例",
+      "text" : "Wioll linepaline ak'in le loler vyetss'l la lex lecu mi sinh. / 私はリパラインがもっと多くの人に広がっていくことを願おう。\n―tarf.klan\nFamian mels sach'arrefoi es loler snaluss.\nオーバーランの要因は多岐に渡る。\nDeliu nutineserl lolerj mag nutinesaxm'i fudiur fal 2 stevypo. 洗濯物が多くて、洗濯機を二回回さねばならなかった。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 4521,
+      "form" : "moni'akda"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】素数\n\n[2013:mol niv pakda:LIY:無い数字::]"
+    }, {
+      "title" : "用例",
+      "text" : "Als moni'akda ny favon melses fal 6. Moni'akda zu laozia 6 i m'es 2 ad 3, la lex filxj als moni'akda es dieniep zu 1 nistaatakes 6'd latva.\n全ての素数は6と密接な関係にある。6を構成する素数は2と3である。また、その2と3以外の全ての素数は必ず、6の倍数から1を引いた数かあるいは6の倍数に1を足した数のいずれかに出現する。"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 4976,
+      "form" : "ovus"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】余弦　コサイン\n\n[2014:ovu -ss:SRT-LIY:余弦ら]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5270,
+      "form" : "rafte"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】円　環　真円　円\n\n[2014:roft:LIY:回る]\n[語法]\n【形容詞】alsarrafteceen　全ての角が等しい\n【名詞】fuarrafte　指輪"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5271,
+      "form" : "raftettexain"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】円周\n\n[2014:rafte'd chai:LIY:円の線]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5291,
+      "form" : "ratadzkurn"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】演算子\n\n[2014:rooto ad koune:LIE:回し動かす]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5420,
+      "form" : "say"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】根　ルート(数学)"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5709,
+      "form" : "snoj"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【他動詞】(-'sは-'iを-'cに/-’lに)定義する　見なす\n【他動詞】(法律-'sで-'iについて)規定する　定める\n\n[2014:snojij:LIY:決める]\n[語法]\nsnoj stiesel A.　Aを名付ける\n【名詞】la snoj 決まり　定義\n【名詞】snojium 規則　法　制度　条例　政令　条令\n【名詞】Cesnojerle'd ftless　同義語\n【名詞】Vlasasnojerle'd ftless　対義語\nE snoj la fenxe?　(飲食店で)ご注文はお決まりですか？"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5924,
+      "form" : "stusni"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【他動詞】(-'sは-'iと-'cを)(計算)かけたものである　掛けたものである　乗算したものである　商である　掛ける　乗算する　かける　\n\n[2015:stusni'amars:LIY:掛け算]\n[語法]\n【名詞】stusnimeo 累乗　べき乗\nny stusni (実数除算、掛け算の逆)割る　除算する"
+    }, {
+      "title" : "用例",
+      "text" : "10 stusni 5'i 2'c.　5×2は10"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5925,
+      "form" : "stusni'amars"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】掛け算　乗算\n\n[2015:stusnyp a mors:LIY:個数計算]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 5926,
+      "form" : "stusnyp"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】算数　数学\n\n[語法]\n【他動詞】(-'sは-'iを-io/lerで)stusnypes 算出する　計算する　演算する\n【名詞】stusnypesium 計算結果　合計結果\n【名詞】stusnypirfelviser 数学弱者　数弱"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 6030,
+      "form" : "talvi'a"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】冪演算　底　冪指数　累乗\n\n[2016:talévia:VEF:累乗]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 6075,
+      "form" : "tasniau"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】関数\n\n[2014:tasnyar:YGK:関数]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 6216,
+      "form" : "tilsor"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】整数\n\n[2015:tiliesterlonerfe soor:LIY:細かいもの無しの数値]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 6574,
+      "form" : "vers"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【形容詞】少ない 　少量の\n【形容詞】(周波数が)低い\n\n[2014:vais:VEF:少ない]\n[対義語:loler]\n[語法]\n【名詞】verserrparcax　独裁政治"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 7052,
+      "form" : "xut"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【形容詞】下の文章　下記　次に続く　次の　次に述べる\n【後置詞】(数学の)以下\n【後置詞】以下　下記\n【前置詞】以下～という、呼ぶ\n\n[類義語:xo]\n[語法]\n【名詞】【後置詞】xutuxy　以内　以下の中"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 7128,
+      "form" : "yrskestyrsy"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "素因数分解\n\n[2014:yst kestiek:因数分解:LIY]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  }, {
+    "entry" : {
+      "id" : 7199,
+      "form" : "zevlue"
+    },
+    "translations" : [ ],
+    "tags" : [ "数学" ],
+    "contents" : [ {
+      "title" : "訳語",
+      "text" : "【名詞】正接　タンジェント\n\n[2014:tsivlu:SRT:正接]"
+    } ],
+    "variations" : [ ],
+    "relations" : [ ]
+  } ],
+  "zpdic" : {
+    "alphabetOrder" : "",
+    "alphabetOrderType" : "UNICODE",
+    "punctuations" : [ ",", "、" ],
+    "pronunciationTitle" : null,
+    "plainInformationTitles" : [ ],
+    "informationTitleOrder" : null,
+    "defaultWord" : {
+      "entry" : {
+        "id" : -1,
+        "form" : ""
+      },
+      "translations" : [ ],
+      "tags" : [ ],
+      "contents" : [ ],
+      "variations" : [ ],
+      "relations" : [ ]
+    }
+  },
+  "snoj" : "## lineparine orthography\n## with preprocess\n## vowel \"u\" -> (\"a\" | \"e\" | \"o\") \"u\"\n## added punctuation\n\n% preprocess {\n\t@FALL_THROUGH;\n\t(\"1\" | \"2\" | \"3\" | \"4\" | \"5\" | \"6\" | \"7\" | \"8\" | \"9\" | \"0\") -> /%/\n}\n\n% font_transcription => IPA {\n@CASE_SENSITIVE;\nvowel = \"a\" | \"i\" | \"u\" | \"e\" | \"o\" | \"y\"\npalat = \"X\" | \"x\" | \"ch\" | \"sh\"\nPUNCTUATION = \".\" | \",\" | \"!\" | \"?\" | \"(\" | \")\" | \"/\" | \"\\\"\" | \"<\" | \">\" | \"―\" | \"[\" | \"]\" | \"…\" | \"=\" | \":\" | \"─\" | \"─\" | \"~\" | \"^\"\nstrong_vowel = \"a\" | \"e\" | \"o\"\npure_consonant = \"p\"  | \"b\"  | \"t\"  | \"d\"  | \"k\"  | \"g\"  | \"z\"  | \"m\"  | \"n\"  | \"f\"  | \"v\"  | \"c\"  | \"s\"  | \"x\"  | \"h\"   | \"l\"  | \"r\"  | \"ts\"  | \"ch\"  | \"dz\"  | \"ng\"  | \"fh\"  | \"vh\"  | \"sh\"  | \"th\"  | \"dh\"  | \"kh\" | \"rkh\" | \"rl\"  | \"ph\"\n\n^ \"-\" -> /-/\n\"-\" ^ -> /-/\n\"-\" -> //\n\n^ \"edioll\" ^ -> /edjol/\n^ \"wioll\" ^ -> /wjol/\n^ \"woll\" ^ -> /wol/\n\"vsfafgh\" -> /vusfafuguh/\n\"simfgh\" -> /zimfuguh/\n\n\"sh\" -> /ʃ/\n\npure_consonant \"i\" \"y\" !(\"'i\" | \"'j\" | \"i\" | \"j\") -> $ /i/ /ɥ/ \n\n(\"a\" | \"u\" | \"e\" | \"o\" | \"y\") \"y\" (\"i\" | \"j\") vowel -> $ /ɥ/ /j/ $\n\"y\" (\"i\" | \"j\") -> /y/ /j/\n\npalat \"i\" vowel -> $ // $\nstrong_vowel (\"i\" | \"y\") \"i\" !vowel -> $ $ /i/\nstrong_vowel (\"i\" | \"y\") \"'\" \"i\" !vowel -> $ $ $ /i/\nvowel \"i\" !\"r\" -> $ /j/\nvowel \"'\" \"i\" !\"r\" -> $  $ /j/\npalat \"i\" \"u\" -> $ $ /u/\nstrong_vowel \"u\" !(\"r\" | \"i\" | \"j\" | \"y\") -> $ /w/\nstrong_vowel \"'\" \"u\" !\"r\" -> $ $ /w/\n\n\"ni\" vowel -> /ɲ/ $;\n\"nj\" vowel -> /ɲ/ $;\n\"i\" vowel -> /j/ $\n## added by https://twitter.com/sashimiwiki/status/935493190504759299\n\"u\" strong_vowel -> /w/ $;\n\n\"s\" \"j\" !vowel -> /z/ $;\n\"s\" !vowel -> /s/\n!vowel \"j\" !vowel -> /i/\n\nvowel \"y\" !vowel -> $ /ɥ/\n!vowel (\"rkh\" | \"Rkh\") -> /ʁ/\n\n\nvowel \"r\" -> $ /ː/\n\"rl\" -> /ɹ/\n\"Rl\" -> /ɹ/\n!vowel (\"r\" | \"R\") -> /r/\n\n\"y\" vowel -> /ɥ/ $\n\n\n\n\n\"tz\" -> /ʦʦ/;\n\"sx\" -> /ʃʃ/;\n\"dX\" -> /ʥʥ/;\n\n\"ts\" -> /ʦ/\n\"ch\" -> /ʧ/\n\"ng\" -> /ŋ/\n\n\"th\" -> /θ/\n\"dh\" -> /ð/\n\"kh\" -> /x/\n\n\n\n\"ph\" -> /p/\n\n\n\n\"a\" -> /a/; \"i\" -> /i/; \"u\" -> /u/; \"e\" -> /e/; \"o\" -> /o/; \"y\" -> /y/\n\n\"p\" -> /p/; \"b\" -> /b/; \"t\" -> /t/; \"d\" -> /d/; \"k\" -> /k/; \"g\" -> /g/;\n\"m\" -> /m/; \"n\" -> /n/; \"f\" -> /f/; \"v\" -> /v/; \n\"c\" -> /s/; \"z\" -> /ʦ/;\n\"s\" -> /z/ \n\"x\" -> /ʃ/\n\"h\" -> /h/\n\"w\" -> /w/\n\"j\" -> /j/\n\"l\" -> /l/\n\"q\" -> /kw/\n\n\"'\" -> //\n\n\"X\" -> /ʥ/\n\"F\"  -> /ɸ/\n\"V\"  -> /β/\n\n# \"l\" !vowel -> /ʟ/\n\n\"%\" -> /%/\n\n}\n\n% normal_transcription => font_transcription {\n@FALL_THROUGH;\n\t\"fh\" -> /F/\n\t\"vh\" -> /V/\n\t\"dz\" -> /X/\n\t# does not handle r, since it will be correctly handled in the next module\n}\n\n%% preprocess >> normal_transcription => font_transcription => IPA;\n"
+}
